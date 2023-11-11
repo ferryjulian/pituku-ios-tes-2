@@ -1,0 +1,6 @@
+framework module Pods_pituku_ios_tes_2_pituku_ios_tes_2UITests {
+  umbrella header "Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F20411D0403952F3862DF85 /* Pods_pituku_ios_tes_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDC5EE5F73DC3D1BD1086B2 /* Pods_pituku_ios_tes_2Tests.framework */; };
+		2E26D63B8390F30ECEE3207F /* Pods_pituku_ios_tes_2_pituku_ios_tes_2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B34A7A1766E971F69036E6C /* Pods_pituku_ios_tes_2_pituku_ios_tes_2UITests.framework */; };
+		3768F802526A372DC2221535 /* Pods_pituku_ios_tes_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29816482837E4811C5E6CDD /* Pods_pituku_ios_tes_2.framework */; };
+		980E6B482AFEA6A000857D9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B472AFEA6A000857D9A /* AppDelegate.swift */; };
+		980E6B4A2AFEA6A000857D9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B492AFEA6A000857D9A /* SceneDelegate.swift */; };
+		980E6B4C2AFEA6A000857D9A /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B4B2AFEA6A000857D9A /* ArticleViewController.swift */; };
+		980E6B512AFEA6A200857D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B502AFEA6A200857D9A /* Assets.xcassets */; };
+		980E6B542AFEA6A200857D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B522AFEA6A200857D9A /* LaunchScreen.storyboard */; };
+		980E6B5F2AFEA6A200857D9A /* pituku_ios_tes_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B5E2AFEA6A200857D9A /* pituku_ios_tes_2Tests.swift */; };
+		980E6B692AFEA6A200857D9A /* pituku_ios_tes_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B682AFEA6A200857D9A /* pituku_ios_tes_2UITests.swift */; };
+		980E6B6B2AFEA6A200857D9A /* pituku_ios_tes_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B6A2AFEA6A200857D9A /* pituku_ios_tes_2UITestsLaunchTests.swift */; };
+		980E6B7F2AFEA7A700857D9A /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B7E2AFEA7A700857D9A /* UIColor+Extensions.swift */; };
+		980E6B812AFEA7D000857D9A /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B802AFEA7D000857D9A /* APIHandler.swift */; };
+		980E6B832AFEA9B200857D9A /* ArticleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6B822AFEA9B200857D9A /* ArticleViewCell.swift */; };
+		980E6B932AFEB48D00857D9A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B862AFEB48D00857D9A /* Roboto-Medium.ttf */; };
+		980E6B942AFEB48D00857D9A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B872AFEB48D00857D9A /* Roboto-Light.ttf */; };
+		980E6B952AFEB48D00857D9A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B882AFEB48D00857D9A /* Roboto-Regular.ttf */; };
+		980E6B962AFEB48D00857D9A /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B892AFEB48D00857D9A /* Roboto-MediumItalic.ttf */; };
+		980E6B972AFEB48D00857D9A /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B8A2AFEB48D00857D9A /* Roboto-ThinItalic.ttf */; };
+		980E6B982AFEB48D00857D9A /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B8B2AFEB48D00857D9A /* Roboto-BoldItalic.ttf */; };
+		980E6B992AFEB48D00857D9A /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B8C2AFEB48D00857D9A /* Roboto-LightItalic.ttf */; };
+		980E6B9A2AFEB48D00857D9A /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B8D2AFEB48D00857D9A /* Roboto-Italic.ttf */; };
+		980E6B9B2AFEB48D00857D9A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B8E2AFEB48D00857D9A /* LICENSE.txt */; };
+		980E6B9C2AFEB48D00857D9A /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B8F2AFEB48D00857D9A /* Roboto-BlackItalic.ttf */; };
+		980E6B9D2AFEB48D00857D9A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B902AFEB48D00857D9A /* Roboto-Bold.ttf */; };
+		980E6B9E2AFEB48D00857D9A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B912AFEB48D00857D9A /* Roboto-Thin.ttf */; };
+		980E6B9F2AFEB48D00857D9A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980E6B922AFEB48D00857D9A /* Roboto-Black.ttf */; };
+		980E6BA32AFEBB2B00857D9A /* DetailArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6BA22AFEBB2B00857D9A /* DetailArticleViewController.swift */; };
+		980E6BA72AFEC94A00857D9A /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6BA62AFEC94A00857D9A /* ArticleModel.swift */; };
+		980E6BAA2AFFEBBC00857D9A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980E6BA92AFFEBBC00857D9A /* UIImage+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		980E6B5B2AFEA6A200857D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980E6B3C2AFEA6A000857D9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980E6B432AFEA6A000857D9A;
+			remoteInfo = "pituku-ios-tes-2";
+		};
+		980E6B652AFEA6A200857D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980E6B3C2AFEA6A000857D9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980E6B432AFEA6A000857D9A;
+			remoteInfo = "pituku-ios-tes-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107730A93744693F42FC527E /* Pods-pituku-ios-tes-2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2Tests.debug.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2Tests/Pods-pituku-ios-tes-2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B34A7A1766E971F69036E6C /* Pods_pituku_ios_tes_2_pituku_ios_tes_2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pituku_ios_tes_2_pituku_ios_tes_2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A087269CDE8668B4FD348D /* Pods-pituku-ios-tes-2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2Tests.release.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2Tests/Pods-pituku-ios-tes-2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A2FE0F65D898967690437AC /* Pods-pituku-ios-tes-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2.debug.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2.debug.xcconfig"; sourceTree = "<group>"; };
+		6DDC5EE5F73DC3D1BD1086B2 /* Pods_pituku_ios_tes_2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pituku_ios_tes_2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBF9E62F954BCE07CAE9FD8 /* Pods-pituku-ios-tes-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2.release.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2.release.xcconfig"; sourceTree = "<group>"; };
+		8E5DCC2F34C2AA11C098F5BE /* Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.release.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		980E6B442AFEA6A000857D9A /* pituku-ios-tes-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pituku-ios-tes-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980E6B472AFEA6A000857D9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		980E6B492AFEA6A000857D9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		980E6B4B2AFEA6A000857D9A /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		980E6B502AFEA6A200857D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		980E6B532AFEA6A200857D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		980E6B552AFEA6A200857D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980E6B5A2AFEA6A200857D9A /* pituku-ios-tes-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pituku-ios-tes-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980E6B5E2AFEA6A200857D9A /* pituku_ios_tes_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pituku_ios_tes_2Tests.swift; sourceTree = "<group>"; };
+		980E6B642AFEA6A200857D9A /* pituku-ios-tes-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pituku-ios-tes-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980E6B682AFEA6A200857D9A /* pituku_ios_tes_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pituku_ios_tes_2UITests.swift; sourceTree = "<group>"; };
+		980E6B6A2AFEA6A200857D9A /* pituku_ios_tes_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pituku_ios_tes_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		980E6B7E2AFEA7A700857D9A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		980E6B802AFEA7D000857D9A /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		980E6B822AFEA9B200857D9A /* ArticleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewCell.swift; sourceTree = "<group>"; };
+		980E6B862AFEB48D00857D9A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		980E6B872AFEB48D00857D9A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		980E6B882AFEB48D00857D9A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		980E6B892AFEB48D00857D9A /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		980E6B8A2AFEB48D00857D9A /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		980E6B8B2AFEB48D00857D9A /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		980E6B8C2AFEB48D00857D9A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		980E6B8D2AFEB48D00857D9A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		980E6B8E2AFEB48D00857D9A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		980E6B8F2AFEB48D00857D9A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		980E6B902AFEB48D00857D9A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		980E6B912AFEB48D00857D9A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		980E6B922AFEB48D00857D9A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		980E6BA22AFEBB2B00857D9A /* DetailArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailArticleViewController.swift; sourceTree = "<group>"; };
+		980E6BA62AFEC94A00857D9A /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		980E6BA92AFFEBBC00857D9A /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		D29816482837E4811C5E6CDD /* Pods_pituku_ios_tes_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pituku_ios_tes_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5337F3A405D1A49406A49B0 /* Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.debug.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		980E6B412AFEA6A000857D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3768F802526A372DC2221535 /* Pods_pituku_ios_tes_2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980E6B572AFEA6A200857D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F20411D0403952F3862DF85 /* Pods_pituku_ios_tes_2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980E6B612AFEA6A200857D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E26D63B8390F30ECEE3207F /* Pods_pituku_ios_tes_2_pituku_ios_tes_2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3471FC5789C06FFA39CB9D9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A2FE0F65D898967690437AC /* Pods-pituku-ios-tes-2.debug.xcconfig */,
+				7CBF9E62F954BCE07CAE9FD8 /* Pods-pituku-ios-tes-2.release.xcconfig */,
+				E5337F3A405D1A49406A49B0 /* Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.debug.xcconfig */,
+				8E5DCC2F34C2AA11C098F5BE /* Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.release.xcconfig */,
+				107730A93744693F42FC527E /* Pods-pituku-ios-tes-2Tests.debug.xcconfig */,
+				57A087269CDE8668B4FD348D /* Pods-pituku-ios-tes-2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F15CE2E733B5E57946A76BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29816482837E4811C5E6CDD /* Pods_pituku_ios_tes_2.framework */,
+				3B34A7A1766E971F69036E6C /* Pods_pituku_ios_tes_2_pituku_ios_tes_2UITests.framework */,
+				6DDC5EE5F73DC3D1BD1086B2 /* Pods_pituku_ios_tes_2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		980E6B3B2AFEA6A000857D9A = {
+			isa = PBXGroup;
+			children = (
+				980E6B462AFEA6A000857D9A /* pituku-ios-tes-2 */,
+				980E6B5D2AFEA6A200857D9A /* pituku-ios-tes-2Tests */,
+				980E6B672AFEA6A200857D9A /* pituku-ios-tes-2UITests */,
+				980E6B452AFEA6A000857D9A /* Products */,
+				3471FC5789C06FFA39CB9D9A /* Pods */,
+				3F15CE2E733B5E57946A76BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		980E6B452AFEA6A000857D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B442AFEA6A000857D9A /* pituku-ios-tes-2.app */,
+				980E6B5A2AFEA6A200857D9A /* pituku-ios-tes-2Tests.xctest */,
+				980E6B642AFEA6A200857D9A /* pituku-ios-tes-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		980E6B462AFEA6A000857D9A /* pituku-ios-tes-2 */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B842AFEB45A00857D9A /* Supporting */,
+				980E6B792AFEA6F300857D9A /* API */,
+				980E6B782AFEA6E700857D9A /* Extensions */,
+				980E6B772AFEA6CF00857D9A /* Features */,
+				980E6B472AFEA6A000857D9A /* AppDelegate.swift */,
+				980E6B492AFEA6A000857D9A /* SceneDelegate.swift */,
+				980E6B502AFEA6A200857D9A /* Assets.xcassets */,
+				980E6B522AFEA6A200857D9A /* LaunchScreen.storyboard */,
+				980E6B552AFEA6A200857D9A /* Info.plist */,
+			);
+			path = "pituku-ios-tes-2";
+			sourceTree = "<group>";
+		};
+		980E6B5D2AFEA6A200857D9A /* pituku-ios-tes-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B5E2AFEA6A200857D9A /* pituku_ios_tes_2Tests.swift */,
+			);
+			path = "pituku-ios-tes-2Tests";
+			sourceTree = "<group>";
+		};
+		980E6B672AFEA6A200857D9A /* pituku-ios-tes-2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B682AFEA6A200857D9A /* pituku_ios_tes_2UITests.swift */,
+				980E6B6A2AFEA6A200857D9A /* pituku_ios_tes_2UITestsLaunchTests.swift */,
+			);
+			path = "pituku-ios-tes-2UITests";
+			sourceTree = "<group>";
+		};
+		980E6B772AFEA6CF00857D9A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				980E6BA82AFEC95000857D9A /* Model */,
+				980E6B7B2AFEA70F00857D9A /* Article */,
+				980E6B7A2AFEA6FF00857D9A /* Detail Article */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		980E6B782AFEA6E700857D9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B7E2AFEA7A700857D9A /* UIColor+Extensions.swift */,
+				980E6BA92AFFEBBC00857D9A /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		980E6B792AFEA6F300857D9A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B802AFEA7D000857D9A /* APIHandler.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		980E6B7A2AFEA6FF00857D9A /* Detail Article */ = {
+			isa = PBXGroup;
+			children = (
+				980E6BA22AFEBB2B00857D9A /* DetailArticleViewController.swift */,
+			);
+			path = "Detail Article";
+			sourceTree = "<group>";
+		};
+		980E6B7B2AFEA70F00857D9A /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B822AFEA9B200857D9A /* ArticleViewCell.swift */,
+				980E6B4B2AFEA6A000857D9A /* ArticleViewController.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		980E6B842AFEB45A00857D9A /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B852AFEB48D00857D9A /* Roboto */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		980E6B852AFEB48D00857D9A /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				980E6B862AFEB48D00857D9A /* Roboto-Medium.ttf */,
+				980E6B872AFEB48D00857D9A /* Roboto-Light.ttf */,
+				980E6B882AFEB48D00857D9A /* Roboto-Regular.ttf */,
+				980E6B892AFEB48D00857D9A /* Roboto-MediumItalic.ttf */,
+				980E6B8A2AFEB48D00857D9A /* Roboto-ThinItalic.ttf */,
+				980E6B8B2AFEB48D00857D9A /* Roboto-BoldItalic.ttf */,
+				980E6B8C2AFEB48D00857D9A /* Roboto-LightItalic.ttf */,
+				980E6B8D2AFEB48D00857D9A /* Roboto-Italic.ttf */,
+				980E6B8E2AFEB48D00857D9A /* LICENSE.txt */,
+				980E6B8F2AFEB48D00857D9A /* Roboto-BlackItalic.ttf */,
+				980E6B902AFEB48D00857D9A /* Roboto-Bold.ttf */,
+				980E6B912AFEB48D00857D9A /* Roboto-Thin.ttf */,
+				980E6B922AFEB48D00857D9A /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		980E6BA82AFEC95000857D9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				980E6BA62AFEC94A00857D9A /* ArticleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		980E6B432AFEA6A000857D9A /* pituku-ios-tes-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980E6B6E2AFEA6A200857D9A /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2" */;
+			buildPhases = (
+				7E775AEFBDE1B1A5CE8D6144 /* [CP] Check Pods Manifest.lock */,
+				980E6B402AFEA6A000857D9A /* Sources */,
+				980E6B412AFEA6A000857D9A /* Frameworks */,
+				980E6B422AFEA6A000857D9A /* Resources */,
+				F9D23140FCF404591D703CE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pituku-ios-tes-2";
+			productName = "pituku-ios-tes-2";
+			productReference = 980E6B442AFEA6A000857D9A /* pituku-ios-tes-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		980E6B592AFEA6A200857D9A /* pituku-ios-tes-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980E6B712AFEA6A200857D9A /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2Tests" */;
+			buildPhases = (
+				622221E2041029C0EE2FA193 /* [CP] Check Pods Manifest.lock */,
+				980E6B562AFEA6A200857D9A /* Sources */,
+				980E6B572AFEA6A200857D9A /* Frameworks */,
+				980E6B582AFEA6A200857D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980E6B5C2AFEA6A200857D9A /* PBXTargetDependency */,
+			);
+			name = "pituku-ios-tes-2Tests";
+			productName = "pituku-ios-tes-2Tests";
+			productReference = 980E6B5A2AFEA6A200857D9A /* pituku-ios-tes-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		980E6B632AFEA6A200857D9A /* pituku-ios-tes-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980E6B742AFEA6A200857D9A /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2UITests" */;
+			buildPhases = (
+				E94612D6F7132C2836A29727 /* [CP] Check Pods Manifest.lock */,
+				980E6B602AFEA6A200857D9A /* Sources */,
+				980E6B612AFEA6A200857D9A /* Frameworks */,
+				980E6B622AFEA6A200857D9A /* Resources */,
+				E2BD71784827AD9D5D25A339 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980E6B662AFEA6A200857D9A /* PBXTargetDependency */,
+			);
+			name = "pituku-ios-tes-2UITests";
+			productName = "pituku-ios-tes-2UITests";
+			productReference = 980E6B642AFEA6A200857D9A /* pituku-ios-tes-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		980E6B3C2AFEA6A000857D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					980E6B432AFEA6A000857D9A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					980E6B592AFEA6A200857D9A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 980E6B432AFEA6A000857D9A;
+					};
+					980E6B632AFEA6A200857D9A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 980E6B432AFEA6A000857D9A;
+					};
+				};
+			};
+			buildConfigurationList = 980E6B3F2AFEA6A000857D9A /* Build configuration list for PBXProject "pituku-ios-tes-2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 980E6B3B2AFEA6A000857D9A;
+			productRefGroup = 980E6B452AFEA6A000857D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980E6B432AFEA6A000857D9A /* pituku-ios-tes-2 */,
+				980E6B592AFEA6A200857D9A /* pituku-ios-tes-2Tests */,
+				980E6B632AFEA6A200857D9A /* pituku-ios-tes-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		980E6B422AFEA6A000857D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980E6B9E2AFEB48D00857D9A /* Roboto-Thin.ttf in Resources */,
+				980E6B9B2AFEB48D00857D9A /* LICENSE.txt in Resources */,
+				980E6B9F2AFEB48D00857D9A /* Roboto-Black.ttf in Resources */,
+				980E6B9D2AFEB48D00857D9A /* Roboto-Bold.ttf in Resources */,
+				980E6B542AFEA6A200857D9A /* LaunchScreen.storyboard in Resources */,
+				980E6B512AFEA6A200857D9A /* Assets.xcassets in Resources */,
+				980E6B982AFEB48D00857D9A /* Roboto-BoldItalic.ttf in Resources */,
+				980E6B952AFEB48D00857D9A /* Roboto-Regular.ttf in Resources */,
+				980E6B972AFEB48D00857D9A /* Roboto-ThinItalic.ttf in Resources */,
+				980E6B992AFEB48D00857D9A /* Roboto-LightItalic.ttf in Resources */,
+				980E6B9C2AFEB48D00857D9A /* Roboto-BlackItalic.ttf in Resources */,
+				980E6B942AFEB48D00857D9A /* Roboto-Light.ttf in Resources */,
+				980E6B9A2AFEB48D00857D9A /* Roboto-Italic.ttf in Resources */,
+				980E6B962AFEB48D00857D9A /* Roboto-MediumItalic.ttf in Resources */,
+				980E6B932AFEB48D00857D9A /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980E6B582AFEA6A200857D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980E6B622AFEA6A200857D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		622221E2041029C0EE2FA193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pituku-ios-tes-2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E775AEFBDE1B1A5CE8D6144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pituku-ios-tes-2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BD71784827AD9D5D25A339 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94612D6F7132C2836A29727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D23140FCF404591D703CE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-2/Pods-pituku-ios-tes-2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		980E6B402AFEA6A000857D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980E6B4C2AFEA6A000857D9A /* ArticleViewController.swift in Sources */,
+				980E6BA72AFEC94A00857D9A /* ArticleModel.swift in Sources */,
+				980E6B832AFEA9B200857D9A /* ArticleViewCell.swift in Sources */,
+				980E6B482AFEA6A000857D9A /* AppDelegate.swift in Sources */,
+				980E6BA32AFEBB2B00857D9A /* DetailArticleViewController.swift in Sources */,
+				980E6B812AFEA7D000857D9A /* APIHandler.swift in Sources */,
+				980E6BAA2AFFEBBC00857D9A /* UIImage+Extensions.swift in Sources */,
+				980E6B4A2AFEA6A000857D9A /* SceneDelegate.swift in Sources */,
+				980E6B7F2AFEA7A700857D9A /* UIColor+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980E6B562AFEA6A200857D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980E6B5F2AFEA6A200857D9A /* pituku_ios_tes_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980E6B602AFEA6A200857D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980E6B6B2AFEA6A200857D9A /* pituku_ios_tes_2UITestsLaunchTests.swift in Sources */,
+				980E6B692AFEA6A200857D9A /* pituku_ios_tes_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		980E6B5C2AFEA6A200857D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980E6B432AFEA6A000857D9A /* pituku-ios-tes-2 */;
+			targetProxy = 980E6B5B2AFEA6A200857D9A /* PBXContainerItemProxy */;
+		};
+		980E6B662AFEA6A200857D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980E6B432AFEA6A000857D9A /* pituku-ios-tes-2 */;
+			targetProxy = 980E6B652AFEA6A200857D9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		980E6B522AFEA6A200857D9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980E6B532AFEA6A200857D9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		980E6B6C2AFEA6A200857D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		980E6B6D2AFEA6A200857D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		980E6B6F2AFEA6A200857D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2FE0F65D898967690437AC /* Pods-pituku-ios-tes-2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pituku-ios-tes-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		980E6B702AFEA6A200857D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBF9E62F954BCE07CAE9FD8 /* Pods-pituku-ios-tes-2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pituku-ios-tes-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		980E6B722AFEA6A200857D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107730A93744693F42FC527E /* Pods-pituku-ios-tes-2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pituku-ios-tes-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pituku-ios-tes-2";
+			};
+			name = Debug;
+		};
+		980E6B732AFEA6A200857D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A087269CDE8668B4FD348D /* Pods-pituku-ios-tes-2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pituku-ios-tes-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pituku-ios-tes-2";
+			};
+			name = Release;
+		};
+		980E6B752AFEA6A200857D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5337F3A405D1A49406A49B0 /* Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pituku-ios-tes-2";
+			};
+			name = Debug;
+		};
+		980E6B762AFEA6A200857D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5DCC2F34C2AA11C098F5BE /* Pods-pituku-ios-tes-2-pituku-ios-tes-2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pituku-ios-tes-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		980E6B3F2AFEA6A000857D9A /* Build configuration list for PBXProject "pituku-ios-tes-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980E6B6C2AFEA6A200857D9A /* Debug */,
+				980E6B6D2AFEA6A200857D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980E6B6E2AFEA6A200857D9A /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980E6B6F2AFEA6A200857D9A /* Debug */,
+				980E6B702AFEA6A200857D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980E6B712AFEA6A200857D9A /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980E6B722AFEA6A200857D9A /* Debug */,
+				980E6B732AFEA6A200857D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980E6B742AFEA6A200857D9A /* Build configuration list for PBXNativeTarget "pituku-ios-tes-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980E6B752AFEA6A200857D9A /* Debug */,
+				980E6B762AFEA6A200857D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 980E6B3C2AFEA6A000857D9A /* Project object */;
+}
